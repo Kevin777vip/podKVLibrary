@@ -1,0 +1,6 @@
+framework module podKVLibrary {
+  umbrella header "podKVLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

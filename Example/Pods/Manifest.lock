@@ -1,0 +1,16 @@
+PODS:
+  - podKVLibrary (0.1.0)
+
+DEPENDENCIES:
+  - podKVLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  podKVLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  podKVLibrary: 0e431c48e06158fe332bf970860ce87a99fa8e39
+
+PODFILE CHECKSUM: 175a6c2c9fdce1a3e6c8ee40961c9850db2fec71
+
+COCOAPODS: 1.4.0

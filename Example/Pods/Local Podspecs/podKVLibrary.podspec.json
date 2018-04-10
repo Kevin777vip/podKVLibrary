@@ -1,0 +1,22 @@
+{
+  "name": "podKVLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of podKVLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qinzixin/podKVLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qinzixin": "qinzixin@fengbangleasing.com"
+  },
+  "source": {
+    "git": "https://github.com/qinzixin/podKVLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podKVLibrary/Classes/**/*"
+}
