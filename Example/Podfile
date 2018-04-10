@@ -1,0 +1,6 @@
+use_frameworks!
+target 'podKVLibrary_Tests' do
+  pod 'podKVLibrary', :path => '../'
+  
+  
+end
