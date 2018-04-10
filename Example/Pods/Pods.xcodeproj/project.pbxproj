@@ -151,6 +151,17 @@
 		213CAA4E1E81C6F28A104B982968B097 /* podKVLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				2510C53E207CC0C700A45EA1 /* Classes */,
+				E65315852DCBA451F3B0B5CDA7B25FCA /* Pod */,
+				157D27E63ABA4E8EA937082F6AC64054 /* Support Files */,
+			);
+			name = podKVLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2510C53E207CC0C700A45EA1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
 				2510C526207CBCCA00A45EA1 /* KVDeviceInfoManger.h */,
 				2510C51C207CBCC900A45EA1 /* KVDeviceInfoManger.m */,
 				2510C51A207CBCC900A45EA1 /* NSArray+KVAdditional.h */,
@@ -169,11 +180,8 @@
 				2510C522207CBCCA00A45EA1 /* UIDevice+Hardware.m */,
 				2510C529207CBCCA00A45EA1 /* UIView+KVAdditional.h */,
 				2510C52A207CBCCA00A45EA1 /* UIView+KVAdditional.m */,
-				E65315852DCBA451F3B0B5CDA7B25FCA /* Pod */,
-				157D27E63ABA4E8EA937082F6AC64054 /* Support Files */,
 			);
-			name = podKVLibrary;
-			path = ../..;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		32650813DAA80A58B79CB282F642B340 /* Targets Support Files */ = {
