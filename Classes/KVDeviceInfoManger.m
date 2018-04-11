@@ -7,7 +7,8 @@
 //
 
 #import "KVDeviceInfoManger.h"
-#import <SAMKeychain.h>
+#import "SAMKeychain.h"
+#import "NSString+KVAdditional.h"
 @interface KVDeviceInfoManger()
 
 @end

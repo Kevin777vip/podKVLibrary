@@ -8,6 +8,7 @@
 
 #import "NSObject+Additional.h"
 #import <objc/runtime.h>
+#import "NSMutableDictionary+SafeAccess.h"
 @implementation NSObject (Additional)
 - (NSDictionary *)propertyDictionary {
     // Add properties of Self

@@ -26,6 +26,7 @@
 		2510C53B207CBCCA00A45EA1 /* UIView+KVAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = 2510C529207CBCCA00A45EA1 /* UIView+KVAdditional.h */; };
 		2510C53C207CBCCA00A45EA1 /* UIView+KVAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510C52A207CBCCA00A45EA1 /* UIView+KVAdditional.m */; };
 		2510C53D207CBCCA00A45EA1 /* NSObject+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510C52B207CBCCA00A45EA1 /* NSObject+Additional.m */; };
+		2510C540207DA5F700A45EA1 /* KVMecros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2510C53F207DA5F600A45EA1 /* KVMecros.h */; };
 		3FD8EF30E2EDA2599F12A778C5F44A51 /* podKVLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4EDC1C953E39B459FBAAE4D7EC8796 /* podKVLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9166B844ED32350576D06FE99BB6C7A8 /* podKVLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E681603883BAE083BD157491B236A1 /* podKVLibrary-dummy.m */; };
 		D08555F2096B7616292FBE15F4E451E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -67,6 +68,7 @@
 		2510C529207CBCCA00A45EA1 /* UIView+KVAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KVAdditional.h"; sourceTree = "<group>"; };
 		2510C52A207CBCCA00A45EA1 /* UIView+KVAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KVAdditional.m"; sourceTree = "<group>"; };
 		2510C52B207CBCCA00A45EA1 /* NSObject+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additional.m"; sourceTree = "<group>"; };
+		2510C53F207DA5F600A45EA1 /* KVMecros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMecros.h; sourceTree = "<group>"; };
 		269D05C8C817C99AA986A312E33085F3 /* Pods-podKVLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podKVLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27E681603883BAE083BD157491B236A1 /* podKVLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "podKVLibrary-dummy.m"; sourceTree = "<group>"; };
 		406CD42F6D6A1AF74354285BCCE1CF75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		2510C53E207CC0C700A45EA1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2510C53F207DA5F600A45EA1 /* KVMecros.h */,
 				2510C526207CBCCA00A45EA1 /* KVDeviceInfoManger.h */,
 				2510C51C207CBCC900A45EA1 /* KVDeviceInfoManger.m */,
 				2510C51A207CBCC900A45EA1 /* NSArray+KVAdditional.h */,
@@ -254,6 +257,7 @@
 			files = (
 				2510C536207CBCCA00A45EA1 /* UIDevice+Hardware.h in Headers */,
 				2510C538207CBCCA00A45EA1 /* KVDeviceInfoManger.h in Headers */,
+				2510C540207DA5F700A45EA1 /* KVMecros.h in Headers */,
 				2510C535207CBCCA00A45EA1 /* NSDictionary+KVAdditional.h in Headers */,
 				3FD8EF30E2EDA2599F12A778C5F44A51 /* podKVLibrary-umbrella.h in Headers */,
 				2510C52C207CBCCA00A45EA1 /* NSArray+KVAdditional.h in Headers */,

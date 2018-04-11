@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "KVMecros.h"
 @interface KVDeviceInfoManger : NSObject
 MACRO_SHARED_INSTANCE_INTERFACE
 - (NSString*)getUuidStr;
